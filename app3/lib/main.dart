@@ -67,14 +67,25 @@ class _HomeState extends State<Home> {
     dolarController.text = (euro * this.euro / dolar).toStringAsFixed(2);
   }
 
+  // Adicionado por mim
+  void _resetFields() {
+    realController.text = "";
+    dolarController.text = "";
+    euroController.text = "";
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
         title: Text("\$ Conversor \$"),
         backgroundColor: Colors.amber,
         centerTitle: true,
+        // Adicionado por mim
+        actions: <Widget>[
+            IconButton(onPressed: _resetFields, icon: Icon(Icons.refresh))
+        ],
       ),
       body: FutureBuilder<Map>(
         future: getData(),
@@ -103,11 +114,12 @@ class _HomeState extends State<Home> {
                 euro = snapshot.data!["results"]["currencies"]["EUR"]["buy"];
                 
                 return SingleChildScrollView(
-                  padding: EdgeInsets.all(10.0),
+                  padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: <Widget>[
                       Icon(Icons.monetization_on, size: 150.0, color: Colors.amber,),
+                      Divider(),
                       buildTextField("Reais", "R\$", realController, _realChanged),
                       Divider(),
                       buildTextField("Dolares", "U\$", dolarController, _dolarlChanged),
