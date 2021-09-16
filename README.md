@@ -1,2 +1,2 @@
 # Apps_Flutter
-Códigos para desenvolvimento de aplicativos android/ios utilizando Flutter
+Códigos para desenvolvimento de aplicativos Android/IOS utilizando Flutter
