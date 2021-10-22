@@ -1,16 +1,9 @@
-# app0
+# APP0 - CONTADOR DE CLIQUES
 
-A new Flutter project.
+Aplicativo padrão criado ao iniciar um projeto em Flutter.
+Esse aplicativo tem a funcionalidade de calcular o número de cliques que o usuário fizer ao clicar no botão.
 
-## Getting Started
+Com esse aplicativo o usuário poderá:
+- Testar o número de cliques através de um botão.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
