@@ -1,4 +1,4 @@
-// App1: CONTADOR DE PESSOAS
+// App 1: CONTADOR DE PESSOAS
 
 import 'package:flutter/material.dart';
 

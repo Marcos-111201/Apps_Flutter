@@ -1,4 +1,4 @@
-# APP2 - CALCULADORA IMC
+# APP 2 - CALCULADORA IMC
 
 Esse aplicativo tem a funcionalidade de calcular o Indice de Massa Corporal (IMC) de uma pessoa.
 

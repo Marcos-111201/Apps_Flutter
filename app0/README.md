@@ -1,4 +1,4 @@
-# APP0 - CONTADOR DE CLIQUES
+# APP 0 - CONTADOR DE CLIQUES
 
 Aplicativo padrão criado ao iniciar um projeto em Flutter.
 Esse aplicativo tem a funcionalidade de calcular o número de cliques que o usuário fizer ao clicar no botão.
